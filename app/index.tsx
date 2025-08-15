@@ -40,18 +40,21 @@ export default function CalculatorApp() {
           label="C"
           onPress={clean}
         />
+
         <CalculatorButton
           blackText
           color={Colors.lightGray}
           label="+/-"
           onPress={toggleSign}
         />
+
         <CalculatorButton
           blackText
           color={Colors.lightGray}
           label="del"
           onPress={deleteLast}
         />
+
         <CalculatorButton
           label="/"
           color={Colors.orange}
@@ -65,16 +68,19 @@ export default function CalculatorApp() {
           label="7"
           onPress={() => buildNumber("7")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="8"
           onPress={() => buildNumber("8")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="9"
           onPress={() => buildNumber("9")}
         />
+
         <CalculatorButton
           label="*"
           color={Colors.orange}
@@ -88,16 +94,19 @@ export default function CalculatorApp() {
           label="4"
           onPress={() => buildNumber("4")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="5"
           onPress={() => buildNumber("5")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="6"
           onPress={() => buildNumber("6")}
         />
+
         <CalculatorButton
           label="-"
           color={Colors.orange}
@@ -111,16 +120,19 @@ export default function CalculatorApp() {
           label="1"
           onPress={() => buildNumber("1")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="2"
           onPress={() => buildNumber("2")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="3"
           onPress={() => buildNumber("3")}
         />
+
         <CalculatorButton
           label="+"
           color={Colors.orange}
@@ -135,11 +147,13 @@ export default function CalculatorApp() {
           label="0"
           onPress={() => buildNumber("0")}
         />
+
         <CalculatorButton
           color={Colors.darkGray}
           label="."
           onPress={() => buildNumber(".")}
         />
+
         <CalculatorButton
           label="="
           color={Colors.orange}

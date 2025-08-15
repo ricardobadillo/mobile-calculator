@@ -1,5 +1,6 @@
-import { globalStyles } from "@/styles/global-styles";
 import { Text, TextProps } from "react-native";
+
+import { globalStyles } from "@/styles/global-styles";
 
 interface Props extends TextProps {
   variant?: "h1" | "h2";
