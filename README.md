@@ -1,4 +1,4 @@
-<img alt="Logo de Angular" src="./assets/images/react-logo@3x.png" height=200 width=200 />
+<img alt="Logo de React Native" src="./assets/images/react-logo@3x.png" height=200 width=200 />
 
 # Calculator
 
